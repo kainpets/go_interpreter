@@ -1,7 +1,7 @@
 package token
 
 type TokenType string
-type Token struct {
+type Token struct { // Token is a struct that holds the type of the token and the literal value of the token
 	Type 	TokenType
 	Literal string
 }
